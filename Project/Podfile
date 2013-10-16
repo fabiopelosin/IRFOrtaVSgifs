@@ -1,0 +1,8 @@
+target "Demo" do
+  pod "IRFOrtaVSgifs", :path => "../"
+end
+
+target "Tests" do
+  pod "IRFOrtaVSgifs", :path => "../"
+  pod "Kiwi"
+end
